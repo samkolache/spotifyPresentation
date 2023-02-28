@@ -14,7 +14,7 @@
     font-family: spotLight;
 }
 
-/* opening */
+/* opening AKA slide 1 */
 
 .open {
     font-family: spotBold;
@@ -67,10 +67,13 @@
 }
 
 .box-1 > p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 0;
-    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-family: spotLight;
+    line-height: 1.5;
 }
 
 .box-1 > :first-child, .box-1 > :nth-child(3){
@@ -87,10 +90,12 @@
 }
 
 .box-2 > p {
-    font-size: 1.4rem;
-    margin-left: 10px;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 16px;
     font-family: spotLight;
+    line-height: 1.5;
 }
 
 .box-2 > :first-child {
@@ -101,16 +106,19 @@
 
 .box-3 {
     width: 600px;
-    height: 400px;
+    height: 410px;
     border: 2px solid black;
     border-radius: 8px;
 }
 
 .box-3 >  p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin: 0;
-    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
     font-family: spotLight;
+    line-height: 1.5;
 }
 
 .box-3 > :first-child, .box-3 > :nth-child(3), .box-3 > :nth-child(5) {
@@ -121,23 +129,25 @@
 
 .box-4 {
     width: 600px;
-    height: 550px;
+    height: 470px;
     border: 2px solid black;
     border-radius: 8px;
 }
 
 .box-4 > p {
-    font-size: 1.3rem;
-    margin-left: 10px;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: spotLight;
     margin-bottom: 16px;
+    line-height: 1.5;
 }
 
 .box-4 > :first-child {
     font-family: spotBold;
 }
 
-/* slide 5 */
+/* slide 6 */
 
 .box-5 {
     width: 600px;
@@ -147,30 +157,33 @@
 }
 
 .box-5 > p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 16px;
-    margin-left: 10px;
+    padding-left: 10px;
     font-family: spotLight;
+    line-height: 1.5;
 }
 
 .box-5 > :first-child {
     font-family: spotBold;
 }
 
-/* slide 6 */
+/* slide 7 */
 
 .box-6 {
     width: 600px;
-    height: 420px;
+    height: 440px;
     border: 2px solid black;
     border-radius: 8px;
 }
 
 .box-6 > p {
-    font-size: 1.4rem;
-    margin-bottom: 8px;
-    margin-left: 10px;
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: spotLight;
+    line-height: 1.5;
 }
 
 .box-6 > :first-child {
@@ -195,7 +208,7 @@
     color: white;
 }
 
-/* slide 7 and slide 8 */
+/* slide 8 and slide 9 */
 
 .box-7 {
     width: 600px;
@@ -205,21 +218,23 @@
 }
 
 .box-7 > p {
-    font-size: 1.4rem;
-    margin-bottom: 8px;
-    margin-left: 10px;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
     font-family: spotLight;
+    line-height: 1.5;
 }
 
 .center-p {
     margin-top: 50px;
 }
 
-/* slide 9 */
+/* slide 10 */
 
 .box-8 {
     width: 1200px;
-    height: 575px;
+    height: 505px;
     border: 2px solid black;
     border-radius: 8px;
     margin-top: 40px;
@@ -227,17 +242,20 @@
 
 .box-8 > p {
     text-align: start;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 1.4rem;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 1.6rem;
     font-family: spotLight;
+    line-height: 1.5;
 
 }
 
 /* scenario 3 */
 
 
-/* slide 10 */
+/* slide 11 */
 
 .bg-3 {
     background-color: #C7ec7b;
@@ -262,18 +280,20 @@
 }
 
 .box-9 > p {
-    font-size: 1.4rem;
-    margin-left: 10px;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: spotLight;
-    margin-top: 60px;
+    margin-top: 70px;
+    line-height: 1.5;
 }
 
 .flow {
-    padding-top: 50px;
-    height: 100px;
+    position: relative;
+    top: 80px;
 }
 
-/* slide 11 */
+/* slide 12 */
 
 .img {
     width: 400px;
